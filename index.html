@@ -1,0 +1,89 @@
+ 
+ <!-- source code https://www.w3docs.com/tools/editor/5928 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Homepage</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="Urlvars.js" defer> </script> 
+</head>
+
+<body>
+
+
+<div id="imgs">
+<img src="img/IMG_4519.JPG" style="width:280px;height:250px;" />
+<img src="img/IMG_4515.JPG" style="width:280px;height:250px;" />
+<img src="img/IMG_4516.JPG" style="width:280px;height:250px;" />
+<img src="img/IMG_4520.JPG" style="width:280px;height:250px;" />
+<img src="img/IMG_4513.JPG" style="width:280px;height:250px;" />
+</div>
+
+<div class="testbox">
+    <form action="Second.html">
+
+        <br/>
+        <div class="item">
+            <h2>Your name <span class="required">*</span></h2>
+            <input type="text" name="name" required id="name"/>
+        </div>
+
+        <div class="question">
+            <h2>What are your intersets?</h2>
+            <small>Please choose at least one.</small>
+            <div class="question-answer checkbox-item">
+                <div>
+                    <input type="checkbox" value="Books" id="check_1" name="checklist1"/>
+                    <label for="check_1" class="check"><span>Books</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" value="Art" id="check_2" name="checklist2"/>
+                    <label for="check_2" class="check"><span>Art</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" value="Writing" id="check_3" name="checklist3"/>
+                    <label for="check_3" class="check"><span>Writing</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" value="Movies" id="check_4" name="checklist4"/>
+                    <label for="check_4" class="check"><span>Movies</span></label>
+                </div>
+
+                <!--
+                <div>
+                    <input type="checkbox" value="Science" id="check_5" name="checklist5"/>
+                    <label for="check_5" class="check"><span>Science</span></label>
+                </div>
+                -->
+
+                <div>
+                    <input type="checkbox" value="Games" id="check_6" name="checklist6"/>
+                    <label for="check_6" class="check"><span>Games</span></label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="question">
+            <h2>Would you like to see</h2>
+            <div class="question-answer">
+                <input type="radio" value="Rana_CV" id="Rana_CV" name="view"/>
+                <label for="Rana_CV" class="radio"><span>Rana's CV</span></label>
+                <input type="radio" value="Jaida_CV" id="Jaida_CV" name="view"/>
+                <label for="Jaida_CV" class="radio"><span>Jaida's CV</span></label>
+                <input type="radio" value="Meme" id="Meme" name="view"/>
+                <label for="Meme" class="radio"><span>Meme</span></label>
+            </div>
+        </div>
+
+
+        <div class="btn-block">
+            <input type="submit" value="Submit" id="sBtn">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
